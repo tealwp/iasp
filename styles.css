@@ -1,0 +1,64 @@
+/* style.css */
+body {
+  font-family: "Roboto", sans-serif; /* Use Roboto as the primary font */
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700; /* Make headings bolder */
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+#hero {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f0f0f0;
+}
+
+#hero p {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
